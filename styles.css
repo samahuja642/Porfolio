@@ -43,7 +43,7 @@ ul a{
     text-decoration: none;
 }
 #content img{
-    width: 230px;
+    width: 20vw;
 }
 .whole{
     display:flex;
@@ -81,4 +81,21 @@ ul a{
 }
 #main nav ul li a:hover{
     text-decoration: underline;
+}
+.first_page{
+    width:100vw;
+    height:90vh;
+}
+.section-page{
+    padding-top:44px;
+    display:flex;
+    align-items:center;
+    width:100vw;
+    height:100vh;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+.flex-div{
+    align-items:center;
+    display:flex;
 }
